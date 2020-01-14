@@ -1,0 +1,144 @@
+
+body{
+	background-image: url(../img/back.jpg);
+	margin: 0;
+}
+
+/*header*/
+
+header{
+	background-color:hsl(161, 89%, 67%,0.8) ;
+	width: 100%;
+	margin-top: 10vh;
+	height: 100px;
+}
+
+#logo{
+	width: 250px;
+}
+
+nav {
+	display: inline;
+	font-family: 'Pacifico', cursive;
+	position: absolute;
+	left: 50vw;
+	top: 13vh;
+}
+nav a{
+	font-size: 30px;
+	text-decoration: none;
+	border: solid #E8ED7D ;
+	border-radius: 10px;
+	color: #1B2228;
+	padding: 0 10px;
+}
+
+nav a:hover{
+	border: solid white;
+}
+
+/*footer*/
+
+footer{
+	background-color:hsl(161, 89%, 67%,0.8)  ;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 6px 6px 5px white;
+}
+
+.redes{
+	text-align: center;
+}
+
+.redes img{
+	width: 60px;
+	margin-right: 20px;
+}
+
+/*main*//*index.html*/
+
+#txtBody{
+	margin-top: 140px;
+	text-align: center;
+	font-size: 100px;
+	text-shadow: 5px 0 0 #E5CCE1, -5px 0 0 #E5CCE1, 0 5px 0 #E5CCE1, 0 -5px 0 #E5CCE1; 
+}
+
+.promos{
+	text-align: center;
+	margin-top: 120px;
+}
+
+.promos img{
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+
+
+/*main*//*productos.html*/
+
+#txt2{
+	font-size: 70px;
+	text-align: center;
+	text-shadow: 4px 4px 4px #61B99D;
+}
+
+#tablaProd{
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 50px;
+	position: relative;
+	left: 15vw;
+}
+
+
+#tablaProd td{
+	border-style: groove;
+	border-width: 20px;
+	border-color: #E8ED7D;
+
+}
+
+#tablaProd img{
+	width: 100%;
+}
+
+#boxListado{
+	text-align: center;
+	font-size: 20px;
+	margin: auto;
+	width: 400px;
+	border: ridge 5px;
+	box-shadow: 3px 3px 4px;
+	background-image: linear-gradient(to top left, #D3D5D3, #6CDCC3, #39D56B ) 
+}
+
+/*main*//*contacto.html*/
+
+#formulario{
+	margin: 20px 30px;
+	font-size: 20px;
+}
+
+
+#coment{
+	height: 100px;
+	width: 400px;
+}
+
+#submit{
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	position: relative;
+	left: 30vw;
+	border: solid #E8ED7D;
+	border-radius: 10px;
+}
+
+#submit:hover{
+	border: solid hsl(161, 89%, 67%,0.8);
+}
+
+
+

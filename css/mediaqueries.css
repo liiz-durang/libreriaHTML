@@ -1,0 +1,75 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+	/*header*/
+	
+
+
+}
+
+/* Small- Tablets landscape*/
+@media only screen and (max-width: 768px){
+	/*header*/
+	nav a{
+		font-size: 20px;
+		display: block;
+		text-align: center;
+		margin: 3%;
+		position: relative;
+		bottom: 3vh;
+		left: 15vw;
+	}
+
+
+	header{
+		height: 140px;
+		
+	}
+
+	/*main*//*index.html*/
+
+	#txtBody{
+		font-size: 50px;
+		margin-top: 70px;
+	}
+
+	/*main*//*productos.html*/
+	#tablaProd{
+		width: 100vw;
+	}
+
+	/*main*//*contacto.html*/
+	
+
+}
+
+
+/* Medium - Laptops o Computadoras de Escritorio*/
+@media only screen and (max-width: 992px){
+	
+	
+	/*header*/
+	nav a{
+		font-size: 20px;
+		
+	}
+
+	/*main*//*productos.html*/
+
+	#tablaProd {
+		width: 70vw;
+	}
+}
+/* large */
+@media only screen and (max-width: 1200px){
+		/*main*//*productos.html*/
+
+		#tablaProd {
+			width: 60vw;
+		}
+}
+
+/* Extra large*/
+@media only screen and (min-width: 1200px){
+	
+}
